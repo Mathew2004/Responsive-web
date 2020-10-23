@@ -1,0 +1,130 @@
+body{
+  background-image: #fff;
+}
+
+
+nav{
+    
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+nav .logo{
+  padding: 10px;
+  color: #111;
+  margin-left: 10px;
+}
+nav .logo span{
+  color: #af1649;
+}
+.login{
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #fff7fa;
+  font-weight: 700;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+
+
+.left{
+ 
+    padding: 100px;;
+}
+.left h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.left h1 span{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 10px;
+  color: rgb(223, 28, 135)
+}
+
+.left p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 18px;
+}
+.left a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    box-shadow: rgba(0,0,0,.5);
+}
+.left a:hover{
+  color: #111;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  transition: 0.4s;
+  
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+
+}
+
+  @media (max-width:700px){
+    main{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .login{
+      font-size: 18px;
+    }
+  }
+
+  /*av li {
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+  
+  
+  }
+  
+  nav li a:hover{
+    transition: 0.3s;
+    color: #111;
+    border-bottom: 2px solid #111;
+    padding: 8px 10px;
+    
+  }
+
+*/
+
+
+  /**About page**
+
+.about-page{
+    height: 100vh;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
